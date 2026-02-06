@@ -15,6 +15,7 @@ def insertion_sort(arr):
     Space Complexity:
     - O(n) due to copying the input list to avoid modifying the original one.
     """
+    
     arr = arr.copy()
 
     for i in range(1, len(arr)):
