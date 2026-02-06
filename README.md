@@ -1,13 +1,7 @@
 
 # Algorithm Analysis – Sorting Algorithms
 
-## Authors
-- **Sebastian Albarracin Silva**
-- **Jeisson Sanchez**
-
----
-
-## Project Description
+## 📝 Project Description
 
 This project is part of an Algorithm Analysis assignment.  
 The goal is to implement and analyze different sorting algorithms in Python, focusing on their correctness and theoretical time complexity.
@@ -16,7 +10,7 @@ Each algorithm is implemented from scratch, documented with a clear description 
 
 ---
 
-## Implemented Algorithms
+## 🛠️ Implemented Algorithms
 
 The following sorting algorithms have been implemented:
 
@@ -34,7 +28,7 @@ Each algorithm:
 
 ---
 
-## Time Complexity Summary
+## ⏰ Time Complexity Summary
 
 | Algorithm       | Best Case | Average Case | Worst Case |
 |-----------------|-----------|--------------|------------|
@@ -46,5 +40,38 @@ Each algorithm:
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
+Algorithm-Analysis/
+│
+├── algorithms/
+│   ├── __init__.py
+│   ├── bubble_sort.py
+│   ├── insertion_sort.py
+│   ├── selection_sort.py
+│   ├── merge_sort.py
+│   └── quick_sort.py
+│
+├── experiments/
+│   ├── benchmark.py
+│   └── benchmark_results.csv
+│
+├── tests/
+│   ├── test_bubble_sort.py
+│   ├── test_insertion_sort.py
+│   ├── test_selection_sort.py
+│   ├── test_merge_sort.py
+│   └── test_quick_sort.py
+│
+├── notebook/
+│   └── experimental_analysis.ipynb
+│
+├── README.md
+├──
+
+---
+
+## 👥 Authors
+
+- [Jeisson Sanchez](https://github.com/JeissonS02)
+- [Sebastian Albarracin](https://github.com/SebastianAlbarracinSilva)
